@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Ticket</title>
+    <link rel="stylesheet" href="styles/fonts.css">
+
+    <!-- Daisy UI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header class="">
+        <nav class="flex items-center justify-between">
+            <div class="shrink-0">
+                <h1 class="text-3xl raleway-extrabold">Smart Ticket</h1>
+            </div>
+            <div class="flex  items-center justify-between  gap-4 md:gap-8 lg:gap-12 raleway-medium">
+                <p>Home</p>
+                <p>About</p>
+                <p>Destination</p>
+                <p>Search</p>
+            </div>
+            <div class="shrink-0">
+                <button class="btn flex items-center gap-2 bg-[#1DD1001A]">
+                    <p>Bus</p>
+                    <img src="images/bus-icon.png" alt="" class="w-5">
+                </button>
+             </div>
+        </nav>
+    </header>
+    <main>
+        <!-- banner section -->
+         <section class="relative mx-4 md:mx-10 lg:mx-16 mt-4">
+            <div class=" min-h-[350px]      md:min-h-[450px] lg:min-h-[1000px]
+                bg-[url('images/banner.png')] bg-cover bg-center
+                bg-no-repeat rounded-2xl
+                flex flex-col items-center justify-center
+                text-center px-4 py-10">
+
+                <h1 class="text-3xl md:text-4xl lg:text-5xl
+                   raleway-extrabold text-white">
+                    End-to-End Travel with
+                    <br>
+                    <span class="text-green-500">SA Paribahan</span>
+                </h1>
+
+                <p class="mt-4 max-w-2xl text-sm text-white">
+                Yes, you can run unit tests and view the results directly
+                within the app. The integrated testing features allow
+                for a streamlined experience.
+                </p>
+
+                <button class="btn mt-6 bg-[#1DD100] border-0 text-black">
+                    Buy Tickets
+                </button>
+
+            </div>
+            <div class="relative -mt-8 md:-mt-10 lg:-mt-12  flex flex-wrap justify-around gap-4 px-4">
+
+                <!-- Registered User -->
+                <div class="aura aura-gold">
+                    <div class="card bg-base-100">
+                        <div class="card-body flex flex-row items-center">
+                            <img src="images/people.png" alt="">
+                            <div>
+                                <h1 class="text-3xl inter-bold text-[#030712]">500k+</h1>
+                                <p class="inter-regular  text-[#03071299]">Registered User</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ticket sold  -->
+                <div class="aura aura-gold">
+                    <div class="card bg-base-100">
+                        <div class="card-body flex flex-row items-center">
+                            <img src="images/ticket-cupon.png" alt="">
+                            <div>
+                                <h1 class="text-3xl inter-bold text-[#030712]">1.7 lacks</h1>
+                                <p class="inter-regular  text-[#03071299]">Tickets sold</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rental Partners -->
+                 <div class="aura aura-gold">
+                    <div class="card bg-base-100">
+                        <div class="card-body flex flex-row items-center">
+                            <img src="images/stoppage.png" alt="">
+                            <div>
+                                <h1 class="text-3xl inter-bold text-[#030712]">80k+</h1>
+                                <p class="inter-regular  text-[#03071299]">Rental partners</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Offers Section -->
+        <section class="px-4 py-8">
+
+            <h2 class="text-center text-2xl font-bold mb-8">
+            Best offers for you
+            </h2>
+
+        <!-- Offer Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4  max-w-5xl mx-auto">
+
+                <!-- First Offer -->
+                <div class="flex bg-amber-400 rounded-xl overflow-hidden min-h-[102px]">
+
+                    <div class="flex-1 p-4 flex flex-col justify-center">
+                        <h3 class="text-2xl font-extrabold text-[#030712CC] inter-regular">
+                        15% OFF
+                        </h3>
+                        <p class="text-xs font-medium inter-semibold text-[#030712CC]">
+                        on your next purchase
+                        </p>
+                        <p class="text-xs mt-1 text-[#03071280] inter-medium">
+                        use by January 2024
+                        </p>
+                    </div>
+
+                    <div class="relative border-l-2 border-dotted border-white
+                        flex flex-col items-center justify-center
+                        px-5 min-w-[105px]">
+
+                        <span class="absolute -top-3 -left-[11px]
+                             w-5 h-5 bg-white rounded-full"></span>
+
+                        <span class="absolute -bottom-3 -left-[11px]
+                             w-5 h-5 bg-white rounded-full"></span>
+
+                        <h4 class="font-bold text-sm whitespace-nowrap raleway-bold text-[#030712]">
+                        NEW15
+                        </h4>
+                        <p class="text-xs text-[#03071266] raleway-medium">
+                        Coupon Code
+                        </p>
+                    </div>
+                </div>
+
+        <!-- Second Offer -->
+                <div class="flex bg-rose-300 rounded-xl overflow-hidden min-h-[102px]">
+
+                    <div class="flex-1 p-4 flex flex-col justify-center">
+                        <h3 class="text-2xl font-extrabold text-[#030712CC] inter-regular">
+                        20% OFF
+                        </h3>
+                        <p class="text-xs font-medium inter-semibold text-[#030712CC]">
+                        on your next purchase
+                        </p>
+                        <p class="text-xs mt-1 text-[#03071280] inter-medium">
+                        use by January 2024
+                        </p>
+                    </div>
+
+                    <div class="relative border-l-2 border-dotted border-white
+                        flex flex-col items-center justify-center
+                        px-5 min-w-[105px]">
+
+                        <span class="absolute -top-3 -left-[11px]
+                             w-5 h-5 bg-white rounded-full"></span>
+
+                        <span class="absolute -bottom-3 -left-[11px]
+                             w-5 h-5 bg-white rounded-full"></span>
+
+                        <h4 class="font-bold text-sm whitespace-nowrap raleway-bold text-[#030712]">
+                        Couple 20
+                        </h4>
+                        <p class="text-xs text-[#03071266] raleway-medium">
+                        Coupon Code
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+    <!-- See All Offers Button -->
+            <div class="text-center mt-7">
+                <button class="btn btn-outline btn-success btn-sm normal-case raleway-bold ">
+                See All Offers
+                </button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
