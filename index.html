@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Ticket</title>
     <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/index.css">
 
     <!-- Daisy UI link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
@@ -55,7 +56,7 @@
                 for a streamlined experience.
                 </p>
 
-                <button class="btn mt-6 bg-[#1DD100] border-0 text-black">
+                <button onclick="scrollToSeats()" class="btn mt-6 bg-[#1DD100] border-0 text-black">
                     Buy Tickets
                 </button>
 
@@ -104,7 +105,7 @@
         </section>
 
         <!-- Best Offers Section -->
-        <section class="px-4 py-10 md:px-8>
+        <section class="px-4 py-10 md:px-8">
 
             <h2 class="text-center text-xl md:text-2xl font-bold mb-8"">
             Best offers for you
@@ -352,15 +353,15 @@
                     </div>
 
                     <!-- Seat Layout -->
-                    <div class="space-y-3">
+                    <div id="seatLayout" class="space-y-3">
 
                         <div class="grid grid-cols-[16px_1fr_1fr_1fr_1fr]
                                     gap-2 md:gap-3 items-center">
                             <span class="text-xs text-gray-500">A</span>
-                            <button class="h-10 rounded-lg bg-gray-100 text-xs">A1</button>
-                            <button class="h-10 rounded-lg bg-gray-100 text-xs">A2</button>
-                            <button class="h-10 rounded-lg bg-gray-100 text-xs">A3</button>
-                            <button class="h-10 rounded-lg bg-gray-100 text-xs">A4</button>
+                            <button class="seat-btn h-10 rounded-lg bg-gray-100 text-xs">A1</button>
+                            <button class="seat-btn h-10 rounded-lg bg-gray-100 text-xs">A2</button>
+                            <button class="seat-btn h-10 rounded-lg bg-gray-100 text-xs">A3</button>
+                            <button class="seat-btn h-10 rounded-lg bg-gray-100 text-xs">A4</button>
                         </div>
 
                         <div class="grid grid-cols-[16px_1fr_1fr_1fr_1fr]
@@ -676,6 +677,8 @@
         </div>
 
     </section>
+
+    <script src="scripts/index.js"></script>
 
 </body>
 </html>
