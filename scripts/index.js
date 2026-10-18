@@ -17,6 +17,7 @@ for(let seatBtn of seatBtns){
     seatBtn.addEventListener('click', function(event){
         seatBtn.classList.toggle('selected-seat')
         let text = seatBtn.innerText;
+        // console.log(text)
         console.log(text)
     })
 }
