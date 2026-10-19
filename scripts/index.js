@@ -7,6 +7,7 @@ function scrollToSeats(){
         })
     }
     else{
+        // console.log('error')
         console.log('error')
     }
 }
