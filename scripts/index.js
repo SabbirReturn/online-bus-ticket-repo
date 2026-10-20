@@ -19,6 +19,7 @@ for(let seatBtn of seatBtns){
         seatBtn.classList.toggle('selected-seat')
         let text = seatBtn.innerText;
         // console.log(text)
-        console.log(text)
+        // console.log(text)
+         console.log(text)
     })
 }
