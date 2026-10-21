@@ -20,6 +20,7 @@ for(let seatBtn of seatBtns){
         let text = seatBtn.innerText;
         // console.log(text)
         // console.log(text)
-         console.log(text)
+        //  console.log(text)
+        console.log(text)
     })
 }
