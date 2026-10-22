@@ -21,6 +21,7 @@ for(let seatBtn of seatBtns){
         // console.log(text)
         // console.log(text)
         //  console.log(text)
-        console.log(text)
+        // console.log(text)
+         console.log(text)
     })
 }
