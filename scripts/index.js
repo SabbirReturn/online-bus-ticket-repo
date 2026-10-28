@@ -6,9 +6,18 @@ function scrollToSeats(){
     })
 }
 
+let selectedSeatNum = [];
 let seatBtns = document.querySelectorAll('.seat-btn')
 for(let seat of seatBtns){
-    seat.addEventListener('click', function(){
-        console.log('click');
+    seat.addEventListener('click', function(event){
+        let selectedSeat = event.target;
+        let selectedSeatText = selectedSeat.innerText;
+        selectedSeat.classList.toggle('bg-green-500')
+        selectedSeatNum.push(selectedSeatText); 
+        // console.log(selectedSeatNum)
+        console.log(selectedSeatNum)
     })
+    
 }
+
+
